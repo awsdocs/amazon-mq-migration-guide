@@ -1,7 +1,7 @@
-# Amazon MQ Migration Guide
+# Amazon MQ Amazon MQ for ActiveMQ Migration Guide
 
 -----
-*****Copyright &copy; 2021 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -35,5 +35,5 @@ Amazon's trademarks and trade dress may not be used in
 + [Logging and monitoring](logging-and-monitoring.md)
 + [Throughput benchmarks](chapter-benchmarks.md)
 + [Related resources](concept-chapter-resources.md)
-+ [Migration Guide release notes](amazon-mq-mig-guide-release-notes.md)
++ [Amazon MQ for ActiveMQ Migration Guide release notes](amazon-mq-mig-guide-release-notes.md)
 + [AWS glossary](glossary.md)

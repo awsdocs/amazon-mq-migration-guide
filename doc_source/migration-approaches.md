@@ -22,6 +22,6 @@ Refactoring \(also known as "re\-architecting"\) maximizes the benefits of movin
 
 ## Phased migration<a name="phased"></a>
 
-If you are interested in a phased, incremental migration approach, we recommend using a JMS proxy implementation such as [Camel](https://camel.apache.org/)\. For example, you can use the [JMS Bridge Sample](https://github.com/muellerc/amazon-mq-to-websphere-mq-bridge) project, which allows you to bridge from your existing on\-premises messaging broker to [Amazon MQ](https://aws.amazon.com/amazon-mq/)\.
+If you are interested in a phased, incremental migration approach, we recommend using a JMS proxy implementation such as [Camel](https://camel.apache.org/)\. For example, you can use the [JMS Bridge Sample](https://github.com/aws-samples/amazon-mq-migration-from-ibm-mq) project, which allows you to bridge from your existing on\-premises messaging broker to [Amazon MQ](https://aws.amazon.com/amazon-mq/)\.
 
 You can also use [enterprise integration patterns](https://github.com/aws-samples/amazon-mq-enterprise-integration-patterns/)sample to learn how to use [Apache Camel](https://camel.apache.org/manual/latest/getting-started.html) and Amazon MQ to implement common patterns for routing, message transformation, and integration with other AWS services\. In the sample, you will use Amazon EKS to scale Apache Camel\. You can apply the same approach to migrate from IBM MQ or TIBCO EMS to Amazon MQ\.

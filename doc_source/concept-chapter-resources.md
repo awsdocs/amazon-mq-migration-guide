@@ -20,4 +20,3 @@
 +  [Amazon MQ Tutorials ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-tutorials.html) 
 +  [Amazon MQ Forums ](https://forums.aws.amazon.com/forum.jspa?forumID=279) 
 +  [ActiveMQ Documentation ](https://activemq.apache.org/components/classic/documentation) 
-+  [ActiveMQ Forums ](https://activemq.apache.org/discussion-forums) 
