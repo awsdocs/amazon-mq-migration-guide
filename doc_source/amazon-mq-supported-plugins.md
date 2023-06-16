@@ -1,9 +1,0 @@
-# Supported plugins<a name="amazon-mq-supported-plugins"></a>
-
- A plugin in Amazon MQ is a software module that adds a specific feature to a broker\. Amazon MQ managed brokers support the following plugins: 
-+  [authorizationPlugin](https://activemq.apache.org/security.html): Allows you to control access at the granularity level of destinations or of individual messages\. 
-+  [discardingDLQBrokerPlugin](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/permitted-attributes.html#discardingDLQBrokerPlugin.attributes): Provides fine\-grained options to discard your dead\-letter queue\. 
-+  [redeliveryPlugin](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/permitted-attributes.html#redeliveryPlugin.attributes): Enables you to replace the regular DLQ handling with re\-delivery to the original destination following a delay period\. 
-+  [forcePersistencyModeBrokerPlugin](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/permitted-attributes.html#forcePersistencyModeBrokerPlugin.attributes): Allows you to force every incoming message to be *persistent* or *non\-persistent*\. This is useful if you've set up a broker usage policy to process only persistent or non\-persistent messages\. 
-+  [statisticsBrokerPlugin](https://activemq.apache.org/statisticsplugin): Enables you to retrieve statistics from the broker or its destinations\. 
-+  [timeStampingBrokerPlugin](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/permitted-attributes.html#timeStampingBrokerPlugin.attributes): Allows you to update a JMS Client's timestamp on a message with a broker timestamp\. You can trust the timestamp set on your Amazon MQ brokers when client\-side machine clocks are known to be incorrect\.
